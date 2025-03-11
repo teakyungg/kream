@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@import "./../assets/font/pretendard/pretendardvariable.css";
+@import "./../assets/font/notoserif/notoserif.css";
+@import "./../assets/font/suit/SUIT-Variable.css";
+
+@theme {
+}
+
+@layer components {
+}
