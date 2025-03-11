@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Kream</title>
-
-    <link rel="icon" href="./assets/images/vacation-07.avif" />
-    <link rel="stylesheet" href="./styles/output.css" />
-</head>
-
-<body>
-
-    <!-- 여기부터 kream 페이지 만들기  -->
-    <div class="bg-amber-400">페이지 시작!</div>
-
-</body>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+    <link rel="icon" href="/assets/favicon.svg" />
+    <link
+      rel="preload"
+      as="font"
+      href="/src/assets/font/pretendard/woff2/PretendardVariable.woff2"
+    />
+    <link rel="stylesheet" href="/styles/output.css" />
+  </head>
+  <body class="p-8 font-suit">
+    <h1 class="mb-4 text-2xl font-bold text-center">Tailwind CSS</h1>
+    <ul
+      class="w-1/2 gap-2 mx-auto font-medium text-center text-md grid grid-cols-(--lion)"
+    >
+      <li class="content-center block p-6 bg-sky-100">
+        <a href="/kream-component.html">Kream-Component</a>
+      </li>
+      <li class="content-center block p-6 bg-sky-200">
+        <a href="/kream.html">Kream</a>
+      </li>
+    </ul>
+  </body>
 </html>
